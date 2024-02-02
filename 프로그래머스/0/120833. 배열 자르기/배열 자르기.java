@@ -19,7 +19,16 @@ class Solution {
 				numindex++;
 			}
 		}
-	
-		return number;
+       
+       return number;
+        
+//         int[] answer = new int[num2-num1+1];
+//         int idx = 0;
+//         for(int i = num1; i<=num2; i++){
+//             answer[idx] = numbers[i];
+//             idx++;
+//         }
+        
+//         return answer;
     }
 }
