@@ -21,5 +21,14 @@ class Solution {
                        
         return result;
         //또 다른 방법은, 반복문 사용하지 않고 이미 베열 길이가 주어져있고 정렬만 되어있다면 다이렉트로 요소들 꺼내서 if문으로 검증해도 됨.
+        
+//         Arrays.sort(sides);       
+//         if (sides[2] < sides[0] + sides[1]) {
+//             return 1;
+//         }        
+//         return 2;
+
+//         Arrays.sort(sides);
+//         return sides[2] >= sides[0]+sides[1] ? 2 : 1;        
     }
 }
