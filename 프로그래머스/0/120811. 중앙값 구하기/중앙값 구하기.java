@@ -11,6 +11,11 @@ class Solution {
 		Arrays.sort(array); 		
 		result = array[array.length / 2]; //나누기한 계산결과인 몫이 배열의 중앙값으로 접근하는 인덱스의 값이 됨.
 		
-		return result;        
+		return result;   
+        
+//         Arrays.sort(array);
+        
+//         int centerIndex = array.length / 2;
+//         return array[centerIndex];
     }
 }
