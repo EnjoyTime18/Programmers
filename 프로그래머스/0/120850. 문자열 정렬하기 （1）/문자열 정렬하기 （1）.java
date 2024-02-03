@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class Solution { //Character.isDigit(), Character.getNumericValue() 메소드가 핵심
     public int[] solution(String my_string) {
 
 		// 다른 방식 풀이 (정답 O)
