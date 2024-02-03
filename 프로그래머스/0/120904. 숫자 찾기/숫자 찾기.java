@@ -18,5 +18,11 @@ class Solution {
 		//for문 완전히 끝나고 조건이 완전한 거짓일 경우 -1 리턴하고 solution 메소드 종료
 		return -1;
 		
+		//다른 풀이 -> 이 문제 의도가 indexof() 메소드 사용하라는 문제인듯.
+//		String numStr = String.valueOf(num);
+//	    String kStr = String.valueOf(k);
+//
+//	    int answer = numStr.indexOf(kStr);
+//	    return answer < 0 ? -1 : answer + 1;
     }
 }
