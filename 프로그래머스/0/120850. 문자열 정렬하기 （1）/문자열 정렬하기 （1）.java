@@ -1,7 +1,10 @@
 import java.util.Arrays;
 
-class Solution { //Character.isDigit(), Character.getNumericValue() 메소드가 핵심
+class Solution { 
     public int[] solution(String my_string) {
+        //Character.isDigit(), Character.getNumericValue() 메소드가 핵심
+        //Character.isDigit() -> 지정된 char 리터럴 값이 문자가 아닌 숫자인지 여부를 판별 하는 메소드
+        //Character.getNumericValue() -> 숫자 형태의 char형을 int형 타입으로 변환. 즉, 숫자로 된 char를 int형으로 변경하는 메소드
 
 		// 다른 방식 풀이 (정답 O)
 //		char[] c = my_string.toCharArray();
