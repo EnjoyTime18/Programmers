@@ -1,6 +1,5 @@
 class Solution {
     public int solution(int price) {
-
 		int result = 0;
 
         // if문에서 가격 조건을 낮은(10만원)금액부터 시작 하는게 아닌 높은(50만원)금액으로 잡히게 시작해서 if문을 위에서부터 순차적으로 조건을 효율적으로 탐색해 코드를 좀 더 간결하게 만들 수 있음
