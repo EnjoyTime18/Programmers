@@ -11,7 +11,6 @@ public class Solution {
 			System.out.println(n + " is odd");
 		}
 
-//		String s = (n % 2 == 0) ? n + " is even" : n + " is odd";
-//		System.out.println(s);
+//		System.out.println(n + " is " + (n % 2 == 0 ? "even" : "odd"));
 	}
 }
