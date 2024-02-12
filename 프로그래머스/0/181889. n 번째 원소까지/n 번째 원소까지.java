@@ -16,6 +16,7 @@ class Solution {
 //
 //		return num;
         
-		return Arrays.copyOfRange(num_list, 0, n);
+        return Arrays.copyOf(num_list, n);
+//		return Arrays.copyOfRange(num_list, 0, n);
 	}
 }
