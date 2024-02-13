@@ -4,7 +4,7 @@ class Solution {
 
 		for (int i = 0; i < 1; i++) {
 			total = num_list[i];
-			for (int j = 1; j < num_list.length; j++) { // 1~4
+			for (int j = 1; j < num_list.length; j++) { 
 				if (num_list.length >= 11) {
 					total += num_list[j];
 				} else {
