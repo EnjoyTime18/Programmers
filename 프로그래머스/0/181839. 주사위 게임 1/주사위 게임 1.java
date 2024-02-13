@@ -5,11 +5,7 @@ class Solution {
 		} else if (a % 2 == 1 || b % 2 == 1) {
 			return 2 * (a + b);
 		} else {
-			if(a - b < 0) {
-				return (a - b) * -1;
-			} else {
-				return a - b;
-			}
+			return Math.abs(a - b);
 		}
 	}
 }
