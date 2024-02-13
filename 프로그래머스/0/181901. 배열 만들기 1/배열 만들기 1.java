@@ -5,8 +5,7 @@ class Solution {
         
         for(int i=k; i<=n; i++) {        	
         	if(i % k == 0) {
-        		answer[index] = i;
-        		index++;
+        		answer[index++] = i;
         	}       	
         }
               
