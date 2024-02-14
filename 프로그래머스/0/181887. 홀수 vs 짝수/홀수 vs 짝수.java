@@ -14,11 +14,8 @@ class Solution {
 
 		if (odd > ever) {
 			return odd;
-		} else if (odd < ever) {
-			return ever;
 		} else {
-			return odd;
-		}
-		
+			return ever;
+		} 		
 	}
 }
