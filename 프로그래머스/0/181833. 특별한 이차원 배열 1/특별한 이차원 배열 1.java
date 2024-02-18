@@ -4,11 +4,7 @@ class Solution {
 
 		for (int row = 0; row < answer.length; row++) {
 			for (int column = 0; column < answer[row].length; column++) {
-				if (row == column) {
-					answer[row][column] = 1;
-				} else {
-					answer[row][column] = 0;
-				}
+				answer[row][column] = (row == column) ? 1 : 0;
 			}
 		}
 
