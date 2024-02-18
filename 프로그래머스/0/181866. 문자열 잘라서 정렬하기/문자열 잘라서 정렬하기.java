@@ -9,7 +9,9 @@ class Solution {
 //		ArrayList<String> list = new ArrayList<String>();
 //
 //		for (String str : s) {
-//			list.add(str);
+//			if (!str.equals("")) {
+//				list.add(str);
+//			}
 //		}
 //		
 //		return list.toArray(new String[list.size()]);
