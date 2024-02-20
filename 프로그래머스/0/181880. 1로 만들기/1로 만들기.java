@@ -8,13 +8,16 @@ class Solution {
 					break;
 				}
 
-				if (n % 2 == 0) {
-					n = n / 2;
-					answer++;
-				} else {
-					n = (n - 1) / 2;
-					answer++;
-				}
+				n = (n % 2 == 0) ? n = n / 2 : (n - 1) / 2;
+				answer++;
+
+//				if (n % 2 == 0) {
+//					n = n / 2;
+//					answer++;
+//				} else {
+//					n = (n - 1) / 2;
+//					answer++;
+//				}
 			}
 		}
 
