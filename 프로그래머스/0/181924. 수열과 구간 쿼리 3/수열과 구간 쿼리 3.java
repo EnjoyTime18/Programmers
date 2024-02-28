@@ -1,0 +1,15 @@
+class Solution {
+    public int[] solution(int[] arr, int[][] queries) {
+		for (int row = 0; row < queries.length; row++) {
+			int lt = queries[row][0];
+			int rt = queries[row][1];
+			
+			int tmp = arr[lt];
+
+			arr[lt] = arr[rt];
+			arr[rt] = tmp;
+		}
+
+		return arr;
+	}
+}
