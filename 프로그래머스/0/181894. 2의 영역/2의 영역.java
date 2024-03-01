@@ -17,39 +17,39 @@ class Solution {
 
 		int[] answer;
 
-		if (count > 1) {
-			// List 타입의 subList() == Arrays.copyOfRange()
-			List<Integer> list = arraylist.subList(arraylist.indexOf(2), arraylist.lastIndexOf(2) + 1);
-			answer = new int[list.size()];
-
-			for (int i = 0; i < list.size(); i++) {
-				answer[i] = list.get(i);
-			}			
-		} else if (count == 1) {
-			answer = new int[1];
-			answer[0] = arr[arraylist.indexOf(2)];
-		} else {
-			answer = new int[1];
-			answer[0] = -1;
-		}
-
-		return answer;
-
-//		if (count > 0) {
-//			if (count > 1) {
-//				List<Integer> list = arraylist.subList(arraylist.indexOf(2), arraylist.lastIndexOf(2) + 1);
-//				answer = new int[list.size()];
-//				
-//				for (int i = 0; i < list.size(); i++) {
-//					answer[i] = list.get(i);
-//				}				
-//			} else {
-//				answer = new int[]{arr[arraylist.indexOf(2)]};
-//			}
+//		if (count > 1) {
+//			// List 타입의 subList() == Arrays.copyOfRange()
+//			List<Integer> list = arraylist.subList(arraylist.indexOf(2), arraylist.lastIndexOf(2) + 1);
+//			answer = new int[list.size()];
+//
+//			for (int i = 0; i < list.size(); i++) {
+//				answer[i] = list.get(i);
+//			}			
+//		} else if (count == 1) {
+//			answer = new int[1];
+//			answer[0] = arr[arraylist.indexOf(2)];
 //		} else {
-//			answer = new int[]{-1};
+//			answer = new int[1];
+//			answer[0] = -1;
 //		}
-//		
+//
 //		return answer;
+
+		if (count > 0) {
+			if (count > 1) {
+				List<Integer> list = arraylist.subList(arraylist.indexOf(2), arraylist.lastIndexOf(2) + 1);
+				answer = new int[list.size()];
+				
+				for (int i = 0; i < list.size(); i++) {
+					answer[i] = list.get(i);
+				}				
+			} else {
+				answer = new int[]{arr[arraylist.indexOf(2)]};
+			}
+		} else {
+			answer = new int[]{-1};
+		}
+		
+		return answer;
 	}
 }
