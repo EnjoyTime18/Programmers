@@ -4,7 +4,7 @@ import java.util.List;
 class Solution {
     public int[] solution(int[] arr) {
 		// indexOf() 메소드는 String 타입과 List 계열의 타입에서만 사용 가능하다.
-		// 따라서 기본형 타입의 배열이나 String 타입의 배열에서 indexOf()를 사용하려면 이를 List 타입으로 변환 해주어야 한다.
+		// 따라서 기본형 타입의 배열이나 String 타입의 배열에서 indexOf()를 사용하려면 이를 List 계열 타입으로 변환 해주어야 한다.
 		ArrayList<Integer> arraylist = new ArrayList<Integer>();
 		int count = 0;
 
